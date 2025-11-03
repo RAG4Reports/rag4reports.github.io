@@ -1,0 +1,57 @@
+url: https://wsdmcup-2026.github.io
+baseurl: ""
+
+# Site settings
+title: RAG4Reports 2026
+email: eugene.yang@jhu.edu
+description: "Official website for RAG4Reports @ ACL 2026"
+
+
+# Team names, titles and social links
+people:
+- name: Dawn Lawrie
+  pic: dawn
+  institute: HLTCOE, Johns Hopkins University
+
+- name: Sean MacAvaney
+  pic: sean
+  institute: University of Glasgow
+
+- name: James Mayfield
+  pic: jim
+  institute: HLTCOE, Johns Hopkins University
+
+- name: Luca Soldaini
+  pic: luca
+  institute: Allen Institute for AI
+
+- name: Eugene Yang
+  pic: eugene
+  institute: HLTCOE, Johns Hopkins University
+
+- name: Andrew Yates
+  pic: andrew
+  institute: HLTCOE, Johns Hopkins University
+
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# social:
+#   - title: twitter
+#     url: http://twitter.com/jekyllrb
+#   - title: facebook
+#     url:
+#   - title: stack-overflow
+#     url: http://stackoverflow.com/questions/tagged/jekyll
+#   - title: bitbucket 
+#     url: http://bitbucket.org/jekyll
+#   - title: github
+#     url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+# address:
+#   - line: 3481 Melrose Place
+#   - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty

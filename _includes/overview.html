@@ -1,0 +1,25 @@
+<!-- Overview Section -->
+    <section id="overview">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading" id="cfp">Call for Paper</h2>
+                    <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+                    <div class="text-left" style="margin: 50px 0;">
+                    {% capture markdown_content %}{% include cfp.md %}{% endcapture %}
+                    {{ markdown_content | markdownify }}
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading" id="shared-tasks">Shared Tasks</h2>
+                    <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+                    <div class="text-left" style="margin: 50px 0;">
+                    {% capture markdown_content %}{% include shared-task.md %}{% endcapture %}
+                    {{ markdown_content | markdownify }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
