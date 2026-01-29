@@ -11,6 +11,10 @@ Papers can either be directly submitted to the RAG4Reports through OpenReview or
 
 Direct submissions will undergo a single-blinded peer-review process (i.e., reviewers will see the identity of the authors), and each paper will receive at least 3 reviews and one meta-review. For submissions proposing new resources, such as datasets or software, please provide access to the resource for the reviewers to assess its merit. 
 
+Each direct submission can choose between **archival** and **non-archival** after acceptance. If the authors decide to make the paper non-archival, we will provide a slot for presentation, but not publish the paper under our workshop.
+If the authors decide to make the submission archival, we will publish the paper with the ACL Anthology. 
+
+
 ### Important Dates
 
 * First call for papers: December 10, 2025  
