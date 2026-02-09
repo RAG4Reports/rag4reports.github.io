@@ -20,10 +20,10 @@ Participants will receive a set of report generation responses that need to be e
 
 The output format should be a TSV with the columns: 
 
-* topic\_id (string): the topic ID that this line is reporting  
-* generation\_system\_id (string): the generation system that this line is reporting  
-* metric\_name (string): the metric name  
-* score (float): the numerical score of the metric for this generation system on this topic 
+* `topic_id` (string): the topic ID that this line is reporting  
+* `generation_system_id` (string): the generation system that this line is reporting  
+* `metric_name` (string): the metric name  
+* `score` (float): the numerical score of the metric for this generation system on this topic 
 
 There will be a field in the submission portal to indicate which metric you would like for the shared task. You may contain multiple metrics in the submission and pick one for the evaluation.
 
@@ -45,7 +45,7 @@ The submission format is a sequence of JSONL entries each representing one repor
 
 * `metadata` (dictionary)  
   * `topic_id` (string): The unique ID of the input report request  
-  * run\_id (string): An arbitrary string to identify the run. It is recommended to include your team name as part of the run\_id
+  * `run_id` (string): An arbitrary string to identify the run. It is recommended to include your team name as part of the run\_id
 
   Other `metadata` fields may be present but will be ignored.
 
@@ -59,14 +59,14 @@ Sentences must appear in report order. Each sentence dictionary has the followin
 
 ## Submission Instruction
 
-Please submit your runs through the Google Form that will be announced later. Each team can submit an unlimited number of submissions, but **only the last three submissions from the team for each task will be evaluated and considered in the competition.** 
+Please submit your runs to [TIRA](https://www.tira.io/task-overview/rag4reports/). Each team can submit an unlimited number of submissions, but **only the last three submissions from the team for each task will be evaluated and considered in the competition.** 
 
 Each participating team is expected to submit a system paper after the results are announced. During the conference, the winner in each task will receive a slot for an oral presentation. Other teams will be invited to present at the poster session. We strongly encourage each team to participate in the poster session to share the knowledge. 
 
 ## Important Dates
 
 * Data release: December 10, 2025  
-* Task A and B submission deadline: March 5, 2026  
+* Task A and B submission deadline: ~~March 5, 2026~~ April 8, 2026
 * Result announcement: April 28, 2026  
 * System papers due: May 12, 2026  
 * Workshop dates: July 2 or 3, 2026 (TBA)
