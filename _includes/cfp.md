@@ -1,7 +1,9 @@
-RAG4Reports are interested in various aspects of the Report Generation problem. The following is an incomplete list of the topics. Please reach out to us if you are unsure about whether your work is within the scope of this workshop. 
+RAG4Reports are interested in various aspects of the Report Generation problem, which is a deep research task that research agents can be used to tackle it. 
+The following is an incomplete list of the topics. Please reach out to us if you are unsure about whether your work is within the scope of this workshop. 
 
 * Report generation and long-form RAG systems  
-* Multilingual report generation or RAG datasets  
+* Multilingual report generation or RAG datasets
+* Agentic deep research systems
 * Analysis of various components in report generation systems, such as multilingual retrieval, multilingual generative models.   
 * Evaluation method for report generation
 
