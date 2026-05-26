@@ -65,8 +65,8 @@ Each participating team is expected to submit a system paper after the results a
 
 ## Important Dates
 
-* Data release: December 10, 2025  
-* **Task A and B submission deadline: April 15, 2026** ~~April 8, 2026~~
-* Result announcement: April 28, 2026  
-* System papers due: May 12, 2026  
-* Workshop dates: July 2 or 3, 2026 (TBA)
+* ~~Data release: December 10, 2025~~  
+* ~~Task A and B submission deadline: April 15, 2026~~  
+* ~~Result announcement: April 28, 2026~~  
+* ~~System papers due: May 12, 2026~~  
+* **Workshop date: July 4, 2026, San Diego, CA, USA**

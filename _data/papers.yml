@@ -1,0 +1,174 @@
+# Papers accepted to RAG4Reports 2026.
+# Generated from the proceedings data (rag4reports26-pub/papers.yml).
+# Used by _includes/program.html to resolve paper IDs to titles/authors.
+- id: 1
+  title: 'StructSurvey: Structured Agentic Retrieval for Automated Survey Paper Generation'
+  authors:
+  - Paolo Pedinotti
+  - Enrico Santus
+  track: research paper
+  presentation: poster
+  archival: false
+- id: 2
+  title: 'DEO: Training-Free Direct Embedding Optimization for Negation-Aware Retrieval'
+  authors:
+  - Taegyeong Lee
+  - Jiwon Park
+  - Seunghyun Hwang
+  - JooYoung Jang
+  track: research paper
+  presentation: poster
+  archival: false
+- id: 3
+  title: 'A Tale of Trust and Accuracy: Base vs. Instruct LLMs in RAG Systems'
+  authors:
+  - Florin Cuconasu
+  - Giovanni Trappolini
+  - Nicola Tonellotto
+  - Fabrizio Silvestri
+  track: research paper
+  presentation: poster
+  archival: true
+- id: 4
+  title: 'Decompose, Retrieve, Cite: A RAG Pipeline for Structured Report Generation from Technical Documentation'
+  authors:
+  - Himanshu Dhurve
+  - Sreedath Panat
+  - Rajat Dandekar
+  - Raj Dandekar
+  track: research paper
+  presentation: oral
+  archival: true
+- id: 5
+  title: 'EncouRAGe: Evaluating RAG Local, Reliable, and Efficient'
+  authors:
+  - Jan Strich
+  - Martin Semmann
+  - Chris Biemann
+  track: research paper
+  presentation: poster
+  archival: true
+- id: 6
+  title: 'REFSafE: A RAG-Enabled Framework for Predictive Risk Analysis and Automated Safety Report Generation
+    in Mission-Critical Environments'
+  authors:
+  - Sanjay Das
+  - Ran Elgedawy
+  - Ethan Seefried
+  - Ryan Burchfield
+  - Gavin Wiggins
+  - Dana Hewit
+  - Sudarshan Srinivasan
+  - Prasanna Balaprakash
+  - Robert Patton
+  - Todd Thomas
+  - Tirthankar Ghosal
+  track: research paper
+  presentation: oral
+  archival: true
+- id: 7
+  title: 'ORCHID: Orchestrated Retrieval-Augmented Classification of High-Risk Property with Intelligent
+    Decision-Making'
+  authors:
+  - Sanjay Das
+  - Maria Mahbub
+  - Vanessa Lama
+  - Brian Starks
+  - Christopher Polchek
+  - Saffell Silvers
+  - Lauren Deck
+  - Prasanna Balaprakash
+  - Robert Patton
+  - Tirthankar Ghosal
+  track: research paper
+  presentation: poster
+  archival: true
+- id: 8
+  title: A Pipeline to Bootstrap the Evaluation of Retrieval-Augmented Generation for the Automation of
+    Systematic Reviews in Computer Science
+  authors:
+  - Pierre Achkar
+  - Tim Gollub
+  - Arno Simons
+  - Harrisen Scells
+  - Maik Fröbe
+  - Martin Potthast
+  track: research paper
+  presentation: poster
+  archival: true
+- id: 9
+  title: 'UNH @ Rag4Reports: A Broad Exploration of LLM-Judges for RAG'
+  authors:
+  - Minna Tran
+  - Ryan McCarthy
+  - Aiden Parsons
+  - Jaren Unzen
+  - Laura Dietz
+  track: shared task
+  presentation: N/A
+  archival: true
+- id: 10
+  title: 'Crucible @ Rag4Reports: Generating Nuggets for Report Generation and Evaluation'
+  authors:
+  - Laura Dietz
+  - Eugene Yang
+  track: shared task
+  presentation: N/A
+  archival: true
+- id: 11
+  title: 'GenAIus at RAG4Reports 2026: Citation-Aware Compression for Multilingual Report Generation'
+  authors:
+  - Reyyan Yeniterzi
+  - Suveyda Yeniterzi
+  track: shared task
+  presentation: N/A
+  archival: true
+- id: 12
+  title: 'AMU at RAG4Reports 2026 Task B: A Practical Multilingual RAG Pipeline for Citation-Grounded
+    Reports'
+  authors:
+  - Maciej Czajka
+  - Piotr Jabłoński
+  - Mateusz Czajka
+  - Konrad Pierzyński
+  - Krzysztof Jassem
+  track: shared task
+  presentation: N/A
+  archival: true
+- id: 13
+  title: Exploring Capability Thresholds in Ultra-Lightweight LLM Judges for Nugget-Based Report Evaluation
+  authors:
+  - Mann Bajpai
+  - Pulkit Chatwal
+  - Priyanshu Deswal
+  - Harish Pratap Singh
+  - Santosh Kumar Mishra
+  track: shared task
+  presentation: N/A
+  archival: true
+- id: 14
+  title: 'EFSG: Evidence-First Structured Generation for Multilingual RAG Report Generation'
+  authors:
+  - Shaurya Gupta
+  - Jatin Bedi
+  track: shared task
+  presentation: N/A
+  archival: true
+- id: 15
+  title: Adapting AutoARGUE for Automatic Report Evaluation under Missing Citation Annotations
+  authors:
+  - Divrose Kaur
+  - Jatin Bedi
+  - Jasmeet Singh
+  track: shared task
+  presentation: N/A
+  archival: true
+- id: 16
+  title: 'JU-NLP-PG at RAG4Reports 2026: Memory-Efficient Multilingual Report Generation with 4-bit Quantized
+    LLMs'
+  authors:
+  - Swayam Chatterjee
+  - Dipankar Das
+  track: shared task
+  presentation: N/A
+  archival: true

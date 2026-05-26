@@ -1,0 +1,28 @@
+# Workshop program for RAG4Reports 2026.
+# Times are local to San Diego. Paper IDs reference _data/papers.yml.
+date: "July 4, 2026"
+location: "San Diego, CA, USA"
+room: "Harbor A&B"
+sessions:
+  - title: Opening Remarks and Shared Task Introduction
+    time: "9:00 – 9:15"
+
+  - title: "Keynote: Chris Callison-Burch (University of Pennsylvania)"
+    time: "9:15 – 10:00"
+    keynote: true
+
+  - title: Research Paper Orals
+    time: "10:00 – 10:30"
+    papers: [4, 6]
+
+  - title: Coffee Break
+    time: "10:30 – 11:00"
+    break: true
+
+  - title: Shared Task Orals
+    time: "11:00 – 11:30"
+    papers: [11, 9, 10]
+
+  - title: Poster Session
+    time: "11:40 – 12:30"
+    papers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]

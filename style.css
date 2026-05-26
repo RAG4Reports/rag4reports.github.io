@@ -1,3 +1,109 @@
 ---
 layout: style
 ---
+
+/* ---- Keynote section ---- */
+#keynote .keynote-photo {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    margin: 0 auto 15px;
+}
+#keynote .keynote-name {
+    margin-bottom: 2px;
+    font-weight: 700;
+}
+#keynote .keynote-title {
+    margin-top: 0;
+    font-weight: 700;
+    color: #{{ site.data.template.color.primary }};
+}
+#keynote .keynote-bio-heading {
+    margin-top: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #{{ site.data.template.color.muted }};
+}
+
+/* ---- Program section ---- */
+#program .program-meta {
+    color: #{{ site.data.template.color.muted }};
+    margin-bottom: 35px;
+}
+#program .program-schedule {
+    border-top: 1px solid #ddd;
+}
+#program .program-row {
+    display: flex;
+    align-items: flex-start;
+    padding: 18px 10px;
+    border-bottom: 1px solid #ddd;
+}
+#program .program-time {
+    flex: 0 0 130px;
+    font-weight: 700;
+    color: #{{ site.data.template.color.primary }};
+    white-space: nowrap;
+}
+#program .program-detail {
+    flex: 1 1 auto;
+}
+#program .program-title {
+    font-weight: 700;
+    font-size: 18px;
+}
+#program .program-keynote {
+    background-color: #fff;
+}
+#program .program-keynote .program-title a {
+    color: #{{ site.data.template.color.primary }};
+}
+#program .program-break {
+    color: #{{ site.data.template.color.muted }};
+}
+#program .program-break .program-title {
+    font-weight: 400;
+    font-style: italic;
+}
+#program .program-papers {
+    list-style: none;
+    padding-left: 0;
+    margin: 10px 0 0;
+}
+#program .program-papers > li {
+    margin-bottom: 12px;
+}
+#program .paper-title {
+    display: block;
+    font-weight: 600;
+}
+#program .paper-authors {
+    display: block;
+    color: #{{ site.data.template.color.muted }};
+    font-size: 14px;
+}
+#program .paper-badge {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 1px 7px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    vertical-align: middle;
+}
+#program .badge-task {
+    background-color: #{{ site.data.template.color.accent }};
+    color: #fff;
+}
+@media (max-width: 768px) {
+    #program .program-row {
+        flex-direction: column;
+        padding: 14px 10px;
+    }
+    #program .program-time {
+        flex-basis: auto;
+        margin-bottom: 4px;
+    }
+}

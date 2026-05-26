@@ -1,0 +1,43 @@
+<!-- Program Section -->
+    <section id="program" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Program</h2>
+                    <p class="program-meta">
+                        {{ site.data.program.date }} &middot; {{ site.data.program.location }} &middot; Room {{ site.data.program.room }}
+                        <br />Co-located with <a href="https://2026.aclweb.org/" target="_blank">ACL 2026</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="program-schedule">
+                        {% for s in site.data.program.sessions %}
+                        <div class="program-row{% if s.keynote %} program-keynote{% endif %}{% if s.break %} program-break{% endif %}">
+                            <div class="program-time">{{ s.time }}</div>
+                            <div class="program-detail">
+                                <div class="program-title">
+                                    {% if s.keynote %}<a class="page-scroll" href="#keynote">{{ s.title }}</a>{% else %}{{ s.title }}{% endif %}
+                                </div>
+                                {% if s.papers %}
+                                <ul class="program-papers">
+                                    {% for pid in s.papers %}
+                                    {% assign p = site.data.papers | where: "id", pid | first %}
+                                    {% if p %}
+                                    <li>
+                                        <span class="paper-title">{{ p.title }}{% if p.track == "shared task" %} <span class="paper-badge badge-task">Shared Task</span>{% endif %}</span>
+                                        <span class="paper-authors">{{ p.authors | join: ", " }}</span>
+                                    </li>
+                                    {% endif %}
+                                    {% endfor %}
+                                </ul>
+                                {% endif %}
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

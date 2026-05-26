@@ -19,11 +19,11 @@ If the authors decide to make the submission archival, we will publish the paper
 
 ### Important Dates
 
-* First call for papers: December 10, 2025  
-* Second call for papers: January 15, 2026  
-* Third call for papers: February 20, 2026  
-* Paper submission deadline: March 5, 2026  
-* Pre-reviewed ARR commitment deadline: March 24, 2026  
-* Notification of acceptance: April 28, 2026  
-* Camera-ready paper due: May 12, 2026  
-* Workshop dates: July 2 or 3, 2026 (TBA)
+* ~~First call for papers: December 10, 2025~~  
+* ~~Second call for papers: January 15, 2026~~  
+* ~~Third call for papers: February 20, 2026~~  
+* ~~Paper submission deadline: March 5, 2026~~  
+* ~~Pre-reviewed ARR commitment deadline: March 24, 2026~~  
+* ~~Notification of acceptance: April 28, 2026~~  
+* ~~Camera-ready paper due: May 12, 2026~~  
+* **Workshop date: July 4, 2026, San Diego, CA, USA**
