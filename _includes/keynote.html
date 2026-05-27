@@ -4,23 +4,23 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Keynote</h2>
+                    <h3 class="keynote-title">{{ site.data.keynote.title }}</h3>
                 </div>
             </div>
-            <div class="row">
+            <div class="row keynote-body">
                 <div class="col-md-4 text-center">
                     <img src="{{ site.baseurl }}/img/keynote/{{ site.data.keynote.photo }}" class="img-responsive img-circle keynote-photo" alt="{{ site.data.keynote.speaker }}">
-                    <h4 class="keynote-name">{{ site.data.keynote.speaker }}</h4>
+                    <h4 class="keynote-name">{% if site.data.keynote.homepage %}<a href="{{ site.data.keynote.homepage }}" target="_blank">{{ site.data.keynote.speaker }}</a>{% else %}{{ site.data.keynote.speaker }}{% endif %}</h4>
                     <p class="text-muted">{{ site.data.keynote.institution }}</p>
                 </div>
                 <div class="col-md-8">
-                    <h3 class="keynote-title">{{ site.data.keynote.title }}</h3>
                     {% if site.data.keynote.abstract and site.data.keynote.abstract != "" %}
-                    <p class="text-left">{{ site.data.keynote.abstract }}</p>
+                    <div class="text-left keynote-abstract">{{ site.data.keynote.abstract | markdownify }}</div>
                     {% else %}
                     <p class="text-left text-muted"><em>Talk abstract to be announced.</em></p>
                     {% endif %}
                     <h5 class="keynote-bio-heading">Biography</h5>
-                    <p class="text-left">{{ site.data.keynote.bio }}</p>
+                    <div class="text-left keynote-bio">{{ site.data.keynote.bio | markdownify }}</div>
                 </div>
             </div>
         </div>

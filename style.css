@@ -9,12 +9,28 @@ layout: style
     object-fit: cover;
     margin: 0 auto 15px;
 }
+@media (min-width: 992px) {
+    #keynote .keynote-body {
+        display: flex;
+        align-items: center;
+    }
+}
 #keynote .keynote-name {
     margin-bottom: 2px;
     font-weight: 700;
 }
+#keynote .keynote-name a,
+#keynote .keynote-name a:focus {
+    color: inherit;
+    text-decoration: none;
+}
+#keynote .keynote-name a:hover {
+    color: inherit;
+    text-decoration: underline;
+}
 #keynote .keynote-title {
-    margin-top: 0;
+    margin-top: 10px;
+    margin-bottom: 35px;
     font-weight: 700;
     color: #{{ site.data.template.color.primary }};
 }
