@@ -1,50 +1,65 @@
 # Papers accepted to RAG4Reports 2026.
-# Generated from the proceedings data (rag4reports26-pub/papers.yml).
+# Generated from the proceedings data (rag4reports26-pub/papers.yml),
+# with author homepage URLs merged in from the OpenReview export
+# (aclpub2/openreview/papers.yml), matched by author name. A few
+# homepages were supplied manually (e.g. Laura Dietz, Eugene Yang).
 # Used by _includes/program.html to resolve paper IDs to titles/authors.
 - id: 1
   title: 'StructSurvey: Structured Agentic Retrieval for Automated Survey Paper Generation'
   authors:
-  - Paolo Pedinotti
-  - Enrico Santus
+  - name: Paolo Pedinotti
+  - name: Enrico Santus
+    url: https://www.esantus.com
   track: research paper
   presentation: poster
   archival: false
 - id: 2
   title: 'DEO: Training-Free Direct Embedding Optimization for Negation-Aware Retrieval'
   authors:
-  - Taegyeong Lee
-  - Jiwon Park
-  - Seunghyun Hwang
-  - JooYoung Jang
+  - name: Taegyeong Lee
+    url: https://github.com/taegyeong-lee
+  - name: Jiwon Park
+  - name: Seunghyun Hwang
+  - name: JooYoung Jang
+    url: https://bloomberry.github.io/
   track: research paper
   presentation: poster
   archival: false
 - id: 3
   title: 'A Tale of Trust and Accuracy: Base vs. Instruct LLMs in RAG Systems'
   authors:
-  - Florin Cuconasu
-  - Giovanni Trappolini
-  - Nicola Tonellotto
-  - Fabrizio Silvestri
+  - name: Florin Cuconasu
+    url: https://florin-git.github.io/
+  - name: Giovanni Trappolini
+    url: https://sites.google.com/view/giovannitrappolini
+  - name: Nicola Tonellotto
+    url: http://tonellotto.github.io
+  - name: Fabrizio Silvestri
+    url: https://sites.google.com/diag.uniroma1.it/fabriziosilvestri
   track: research paper
   presentation: poster
   archival: true
 - id: 4
   title: 'Decompose, Retrieve, Cite: A RAG Pipeline for Structured Report Generation from Technical Documentation'
   authors:
-  - Himanshu Dhurve
-  - Sreedath Panat
-  - Rajat Dandekar
-  - Raj Dandekar
+  - name: Himanshu Dhurve
+    url: https://www.himanshudhurve.xyz
+  - name: Sreedath Panat
+    url: https://www.linkedin.com/in/sreedath-panat
+  - name: Rajat Dandekar
+  - name: Raj Dandekar
+    url: https://rajdandekar.github.io/
   track: research paper
   presentation: oral
   archival: true
 - id: 5
   title: 'EncouRAGe: Evaluating RAG Local, Reliable, and Efficient'
   authors:
-  - Jan Strich
-  - Martin Semmann
-  - Chris Biemann
+  - name: Jan Strich
+  - name: Martin Semmann
+    url: https://www.hcds.uni-hamburg.de/hcds/team/martin-semmann.html
+  - name: Chris Biemann
+    url: https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/chris-biemann.html
   track: research paper
   presentation: poster
   archival: true
@@ -52,17 +67,22 @@
   title: 'REFSafE: A RAG-Enabled Framework for Predictive Risk Analysis and Automated Safety Report Generation
     in Mission-Critical Environments'
   authors:
-  - Sanjay Das
-  - Ran Elgedawy
-  - Ethan Seefried
-  - Ryan Burchfield
-  - Gavin Wiggins
-  - Dana Hewit
-  - Sudarshan Srinivasan
-  - Prasanna Balaprakash
-  - Robert Patton
-  - Todd Thomas
-  - Tirthankar Ghosal
+  - name: Sanjay Das
+    url: https://sanjay-das-in.github.io
+  - name: Ran Elgedawy
+  - name: Ethan Seefried
+    url: https://eseefried.github.io/
+  - name: Ryan Burchfield
+  - name: Gavin Wiggins
+  - name: Dana Hewit
+  - name: Sudarshan Srinivasan
+  - name: Prasanna Balaprakash
+    url: http://pbalapra.github.io/
+  - name: Robert Patton
+    url: http://www.ornl.gov
+  - name: Todd Thomas
+  - name: Tirthankar Ghosal
+    url: https://www.tirthankarghosal.com
   track: research paper
   presentation: oral
   archival: true
@@ -70,16 +90,20 @@
   title: 'ORCHID: Orchestrated Retrieval-Augmented Classification of High-Risk Property with Intelligent
     Decision-Making'
   authors:
-  - Sanjay Das
-  - Maria Mahbub
-  - Vanessa Lama
-  - Brian Starks
-  - Christopher Polchek
-  - Saffell Silvers
-  - Lauren Deck
-  - Prasanna Balaprakash
-  - Robert Patton
-  - Tirthankar Ghosal
+  - name: Sanjay Das
+    url: https://sanjay-das-in.github.io
+  - name: Maria Mahbub
+  - name: Vanessa Lama
+  - name: Brian Starks
+  - name: Christopher Polchek
+  - name: Saffell Silvers
+  - name: Lauren Deck
+  - name: Prasanna Balaprakash
+    url: http://pbalapra.github.io/
+  - name: Robert Patton
+    url: http://www.ornl.gov
+  - name: Tirthankar Ghosal
+    url: https://www.tirthankarghosal.com
   track: research paper
   presentation: poster
   archival: true
@@ -87,39 +111,45 @@
   title: A Pipeline to Bootstrap the Evaluation of Retrieval-Augmented Generation for the Automation of
     Systematic Reviews in Computer Science
   authors:
-  - Pierre Achkar
-  - Tim Gollub
-  - Arno Simons
-  - Harrisen Scells
-  - Maik Fröbe
-  - Martin Potthast
+  - name: Pierre Achkar
+  - name: Tim Gollub
+  - name: Arno Simons
+  - name: Harrisen Scells
+    url: https://scells.me
+  - name: Maik Fröbe
+    url: http://maik-froebe.de
+  - name: Martin Potthast
+    url: http://www.temir.org
   track: research paper
   presentation: poster
   archival: true
 - id: 9
   title: 'UNH @ Rag4Reports: A Broad Exploration of LLM-Judges for RAG'
   authors:
-  - Minna Tran
-  - Ryan McCarthy
-  - Aiden Parsons
-  - Jaren Unzen
-  - Laura Dietz
+  - name: Minna Tran
+  - name: Ryan McCarthy
+  - name: Aiden Parsons
+  - name: Jaren Unzen
+  - name: Laura Dietz
+    url: https://www.cs.unh.edu/~dietz/
   track: shared task
   presentation: N/A
   archival: true
 - id: 10
   title: 'Crucible @ Rag4Reports: Generating Nuggets for Report Generation and Evaluation'
   authors:
-  - Laura Dietz
-  - Eugene Yang
+  - name: Laura Dietz
+    url: https://www.cs.unh.edu/~dietz/
+  - name: Eugene Yang
+    url: https://www.eugene.zone/
   track: shared task
   presentation: N/A
   archival: true
 - id: 11
   title: 'GenAIus at RAG4Reports 2026: Citation-Aware Compression for Multilingual Report Generation'
   authors:
-  - Reyyan Yeniterzi
-  - Suveyda Yeniterzi
+  - name: Reyyan Yeniterzi
+  - name: Suveyda Yeniterzi
   track: shared task
   presentation: N/A
   archival: true
@@ -127,39 +157,39 @@
   title: 'AMU at RAG4Reports 2026 Task B: A Practical Multilingual RAG Pipeline for Citation-Grounded
     Reports'
   authors:
-  - Maciej Czajka
-  - Piotr Jabłoński
-  - Mateusz Czajka
-  - Konrad Pierzyński
-  - Krzysztof Jassem
+  - name: Maciej Czajka
+  - name: Piotr Jabłoński
+  - name: Mateusz Czajka
+  - name: Konrad Pierzyński
+  - name: Krzysztof Jassem
   track: shared task
   presentation: N/A
   archival: true
 - id: 13
   title: Exploring Capability Thresholds in Ultra-Lightweight LLM Judges for Nugget-Based Report Evaluation
   authors:
-  - Mann Bajpai
-  - Pulkit Chatwal
-  - Priyanshu Deswal
-  - Harish Pratap Singh
-  - Santosh Kumar Mishra
+  - name: Mann Bajpai
+  - name: Pulkit Chatwal
+  - name: Priyanshu Deswal
+  - name: Harish Pratap Singh
+  - name: Santosh Kumar Mishra
   track: shared task
   presentation: N/A
   archival: true
 - id: 14
   title: 'EFSG: Evidence-First Structured Generation for Multilingual RAG Report Generation'
   authors:
-  - Shaurya Gupta
-  - Jatin Bedi
+  - name: Shaurya Gupta
+  - name: Jatin Bedi
   track: shared task
   presentation: N/A
   archival: true
 - id: 15
   title: Adapting AutoARGUE for Automatic Report Evaluation under Missing Citation Annotations
   authors:
-  - Divrose Kaur
-  - Jatin Bedi
-  - Jasmeet Singh
+  - name: Divrose Kaur
+  - name: Jatin Bedi
+  - name: Jasmeet Singh
   track: shared task
   presentation: N/A
   archival: true
@@ -167,8 +197,8 @@
   title: 'JU-NLP-PG at RAG4Reports 2026: Memory-Efficient Multilingual Report Generation with 4-bit Quantized
     LLMs'
   authors:
-  - Swayam Chatterjee
-  - Dipankar Das
+  - name: Swayam Chatterjee
+  - name: Dipankar Das
   track: shared task
   presentation: N/A
   archival: true

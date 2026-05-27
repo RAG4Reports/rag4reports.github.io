@@ -27,7 +27,7 @@
                                     {% if p %}
                                     <li>
                                         <span class="paper-title">{{ p.title }}{% if p.track == "shared task" %} <span class="paper-badge badge-task">Shared Task</span>{% endif %}</span>
-                                        <span class="paper-authors">{{ p.authors | join: ", " }}</span>
+                                        <span class="paper-authors">{% for a in p.authors %}{% if a.url %}<a href="{{ a.url }}" target="_blank">{{ a.name }}</a>{% else %}{{ a.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
                                     </li>
                                     {% endif %}
                                     {% endfor %}
